@@ -1,5 +1,5 @@
 var app = angular.module('app', []);
 
-app.controller('appController', ['$scope', function ($scope) {
-  $scope.helloworld = 'appController says hello world';
+app.controller('MultiplicationCtrl', ['$scope', function ($scope) {
+  $scope.numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 }])
